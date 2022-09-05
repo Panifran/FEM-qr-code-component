@@ -1,13 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   height: 100vh;
-  box-sizing: border-box;
   background-color: hsl(212, 45%, 89%);
   font-family: 'Oswald', sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 div {
@@ -28,13 +30,10 @@ h1 {
 img {
   border-radius: 10px;
 }
+
 p {
   font-size: 15px;
   color: gray;
   margin: 1rem 2.5rem;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
